@@ -9,8 +9,6 @@ header:
     overlay_image: /assets/images/header.webp
     overlay_filter: rgba(0, 0, 0, 0.6)
 
-
-
     actions:
         - label: "Un projet collaboratif L3/M1/M2 MIAGE Sorbonne"
           url: "https://miage.pantheonsorbonne.fr"
@@ -27,67 +25,35 @@ excerpt: |
 
     
 
-round-images:
-    - image-path: "/assets/images/header.webp"
-      size: "full"
-      header: "En-tête 1"
-      caption: "Légende 1"
-    - image-path: "/assets/images/sydney-2.webp"
-      size: "third"
-      header: "En-tête 2"
-      caption: "Légende 2"
-    - image-path: "/assets/images/sydney-3.webp"
-      size: "third"
-      header: "En-tête 3"
-      caption: "Légende 3"
-    - image-path: "/assets/images/sydney-4.webp"
-      size: "third"
-      header: "En-tête 4"
-      caption: "Légende 4"
-    - image-path: "/assets/images/sydney-5.webp"
-      size: "half"
-      header: "En-tête 5"
-      caption: "Légende 5"
-    - image-path: "/assets/images/sydney-6.webp"
-      size: "half"
-      header: "En-tête 6"
-      caption: "Légende 6"
 
-image-text-row:
-    - header: "Image-Text-Row"
-      excerpt: "Ceci est une ligne image-texte"
-      image-url: "/assets/images/header.webp"
-      alt-text: "Texte alternatif pour l'image"
-      image-width: "400px"
-      image-right: false
 
 image-pitch:
     - header: "Le Pitch"
-      excerpt: "Le projet CUPID25 repose sur l'idée innovante de créer une intelligence artificielle (IA) ultra-légère, capable de s'exécuter directement sur des dispositifs matériels à faible coût et faible consommation d'énergie, comme le Raspberry Pi. Cette approche cherche à répondre à un défi majeur dans le domaine de l'informatique moderne : la dépendance excessive aux services cloud. En effet, de nombreuses solutions actuelles, qu'il s'agisse de gestion domotique, de lecture multimédia ou même de simples outils d'organisation, requièrent des connexions permanentes à des serveurs distants pour fonctionner correctement. Cela entraîne non seulement des coûts en termes de bande passante et d'infrastructure, mais pose également des problèmes croissants de confidentialité des données."
+      excerpt: "CUPID25 vise à créer une IA légère capable de fonctionner sur des appareils économiques comme le Raspberry Pi, sans dépendre de serveurs externes. L'objectif est de permettre l'automatisation de tâches du quotidien tout en respectant la vie privée des utilisateurs, car toutes les données personnelles restent stockées localement. CUPID25 permet d'exécuter des tâches d'IA directement sur des appareils à faible consommation d'énergie, comme le Raspberry Pi, sans utiliser de serveurs distants. Cela signifie que vous gardez le contrôle total de vos données, tout en automatisant des tâches simples comme l'éclairage ou la gestion de la température."
       image-url: "/assets/images/pitch.webp"
       image-width: "400px"
       image-right: true
 M1:
     - header: "Intégration d'algorithmes IA Coachable"
-      excerpt: "Le projet se propose d'utiliser les dernières technologies d'IA capables de fonctionne en bordure du réseau, dans des objets connectés, pouvant être facilement manipulés par l'être humain"
+      excerpt: "Le projet utilise des technologies d'IA qui peuvent fonctionner sur des objets connectés et être facilement contrôlées par l'utilisateur."
       image-url: "/assets/images/M1.webp"
       image-width: "400px"
       image-right: false
 L3:
     - header: "Intégration avec l'environnement"
-      excerpt: "Le projet CUPID25 interagit avec son environnement physique et cyber"
+      excerpt: "CUPID25 interagit avec son environnement physique et numérique."
       image-url: "/assets/images/L3.webp"
       image-width: "400px"
       image-right: true
 M2:
     - header: "Intégration avec l'humain"
-      excerpt: "Au fur et à mesure des interactions, le système CUPID25 deviendra plus intelligent et capable d'apprendre de l'utilisateur. L'idée est de rendre l'IA coachable, c'est-à-dire qu'elle pourra être formée par l'utilisateur pour s'adapter à ses préférences. À travers des algorithmes d'apprentissage et d'analyse de processus (process mining), le système pourra également tirer des enseignements de ses propres décisions, ajuster ses comportements et inférer de nouvelles règles, améliorant ainsi l'efficacité des interactions."
+      excerpt: "CUPID25 apprend des interactions avec l'utilisateur pour s'adapter à ses préférences et devenir plus intelligent au fil du temps."
       image-url: "/assets/images/M2.webp"
       image-width: "400px"
       image-right: false
 M2-projet:
     - header: "Prouver la viabilité commerciale du projet"
-      excerpt: "Le rôle du projet de création d'entreprise est de trouver des débouchés commerciaux et de mettre en place une structure permettant de produire, améliorer et vendre la solution. Il vous faudra analyser les besoins des utilisateurs potentiel à l'aide d'une analyse de marché. Les étudiants convaincus par l'approche du projet, peuvent l'utiliser pour porter un projet de création d'entreprise innovante dans le cadre de leur M2"
+      excerpt: "Le projet a aussi pour objectif de valider une idée de création d'entreprise. Cela inclut l'analyse des besoins du marché pour une éventuelle commercialisation du produit."
       image-url: "/assets/images/M2-projet.webp"
       image-width: "400px"
       image-right: true
@@ -98,12 +64,9 @@ M2-projet:
 
     <h1 id="pitch">Le Concept</h1>
 
-   
+    {% include image-text-row id="image-pitch" %}
 
-        {% include image-text-row id="image-pitch" %}
-
-
-    <p>Avec CUPID25, nous proposons une alternative à cette tendance en intégrant des capacités d'IA directement dans des appareils que vous pouvez avoir chez vous, sans dépendre de serveurs externes. Notre système permettra, par exemple, d'automatiser des tâches quotidiennes comme l'allumage des lumières ou le réglage de la température ambiante, tout en garantissant que toutes les informations sensibles, comme les horaires ou les préférences personnelles, restent stockées localement, à l'abri de tout accès extérieur non autorisé. Cette approche privilégie non seulement l'efficacité énergétique, mais également la sécurité des données des utilisateurs.</p>
+    
 
     <a href="https://www.raspberrypi.com/products/raspberry-pi-5/" rel="noopener noreferrer nofollow" target="_blank" class="btn btn--primary">
         Nano-Ordinateur Raspberry PI 5
@@ -119,68 +82,65 @@ M2-projet:
 
 </section>
 
-
 <section class="site-section" id="section-2">
 
     <h1>Objectifs du projet</h1>
 
-    
-    <h2 id="M1">Projets préssentis pour les M1<h2>
+    <h2 id="M1">Projets préssentis pour les M1</h2>
     {% include image-text-row id="M1" %}
 
    <div class="notice--primary">
         <h3>Reconnaissance d'image et de voix</h3>
-        <p>L'une des premières étapes clés du projet CUPID25 est de doter le système d'une capacité de reconnaissance d'image et de voix en temps réel. Pour cela, nous exploitons des bibliothèques Python avancées telles que YOLO (You Only Look Once) pour l'analyse d'image et des outils de reconnaissance vocale, permettant au système de percevoir et de comprendre son environnement immédiat. Ces fonctionnalités sont essentielles pour interagir de manière fluide et intuitive avec les utilisateurs, notamment dans le cadre d'applications domotiques ou d'assistants personnels.</p>
+        <p>Le projet CUPID25 implémente la reconnaissance d'image et de voix en utilisant des bibliothèques Python comme YOLO pour analyser l'image et des outils de reconnaissance vocale. Ces technologies permettent au système de mieux interagir avec son environnement et les utilisateurs.</p>
     </div>
 
     <div class="notice--primary">
         <h3>Synthèse vocale</h3>
-        <p>En plus de comprendre l'environnement, le système devra également pouvoir communiquer de manière audible avec les utilisateurs. La synthèse vocale permettra au dispositif d'émettre des sons compréhensibles et naturels, facilitant ainsi les interactions homme-machine. Cette fonctionnalité pourra être utilisée dans divers scénarios, comme la gestion des tâches quotidiennes ou la diffusion d'informations pertinentes de manière proactive.</p>
+        <p>Le système pourra également parler avec les utilisateurs de manière naturelle grâce à la synthèse vocale. Cela facilitera les interactions dans des situations comme la gestion des tâches ou la diffusion d'informations importantes.</p>
     </div>
 
-      <div class="notice--success">
+    <div class="notice--success">
         <h3>IA Coachable</h3>
-        <p>L'IA de Cupid25 doit pouvoir donner des explications concernant les décisions qu'il prend, et pouvoir être corrigé facilement par l'être humain si les décisions ne sont pas adaptées. Il tient compte des corrections apportées lors de ces prochaines décisions.</p>
+        <p>Le système CUPID25 peut apprendre des corrections apportées par l'utilisateur à ses décisions, pour s'améliorer continuellement.</p>
     </div>
 
-<h2 id="L3">Projets préssentis pour les L3<h2>
+<h2 id="L3">Projets préssentis pour les L3</h2>
 {% include image-text-row id="L3" %}
-    
 
    <div class="notice">
         <h3>Domotique</h3>
-        <p>L'intégration avec l'environnement physique est une dimension centrale du projet CUPID25. Nous envisageons que le système puisse interagir avec différents objets connectés, comme des thermostats intelligents, des ampoules ou des servomoteurs, afin de permettre un contrôle automatisé et intelligent de la maison. Grâce à cette fonctionnalité, l'utilisateur pourra configurer des scénarios d'automatisation pour simplifier son quotidien tout en économisant de l'énergie.</p>
+        <p>Le projet CUPID25 peut interagir avec des objets connectés pour contrôler automatiquement des dispositifs comme des ampoules ou des thermostats intelligents, tout en économisant de l'énergie.</p>
     </div>
 
     <div class="notice">
         <h3>Support d'API</h3>
-        <p>Outre l'environnement physique, CUPID25 permettra aussi une intégration fluide avec des services numériques. Le système pourra interagir avec des API pour gérer des calendriers, envoyer des notifications, et bien plus encore. Cette fonctionnalité ouvre la voie à des applications professionnelles et personnelles qui nécessitent une coordination entre différents services en ligne, tout en maintenant un contrôle localisé des données.</p>
+        <p>CUPID25 peut également se connecter à des services en ligne via des API pour gérer des calendriers ou envoyer des notifications, tout en gardant le contrôle local de vos données.</p>
     </div>
 
     <div class="notice">
         <h3>Interaction humaine</h3>
-        <p>Un aspect innovant du projet réside dans la création d'un objet physique attractif et interactif. Grâce à l'impression 3D et à des éléments robotiques, nous ambitionnons de concevoir un appareil qui non seulement accomplit des tâches techniques, mais qui interagit aussi de manière émotionnelle avec l'utilisateur, notamment en imitant des gestes ou des mouvements anthropomorphiques. Cela rend l'interaction plus naturelle et plaisante.</p>
+        <p>CUPID doit être mignon et attachant. Le projet prévoit la conception externe du système (impression 3D) et un travail sur mouvements/feedback robotiques, CUPID25 interagira de manière plus humaine et engageante avec ses utilisateurs.</p>
     </div>
-<h2 id="M2">Sujets de mémoires de recherche préssentis pour les M2<h2>
+
+<h2 id="M2">Sujets de mémoires de recherche préssentis pour les M2</h2>
 {% include image-text-row id="M2" %}
 
     <div class="notice--success">
         <h3>Process Mining</h3>
-        <p>L'IA de Cupid25 doit être capable d'analyser le comportement de l'utilisateur afin d'en comprendre l'intention. Le process mining est la tendance actuelle de la recherche pour arriver à cette fin, en étudiant l'enchainement et la structure des activités relevé par ses capteurs. En comprenant ce que l'utilisateur veut faire, l'IA est capable de s'auto-coacher.</p>
+        <p>CUPID25 apprend à comprendre les intentions des utilisateurs grâce à l'analyse de leurs actions et comportements (Process Mining), pour anticiper leurs besoins.</p>
     </div>
-        <div class="notice--success">
+    
+    <div class="notice--success">
         <h3>IA Explicable</h3>
-        <p>L'IA de Cupid25 doit pouvoir rendre des comptes à l'humain qui l'utilise et expliquer les prises de décisions qui sont faites. Dans ce cadre, plusieurs algorithmes d'explicabilité sont mis en oeuvre et comparés afin de cerné ceux qui sont le plus pertinent dans le cadre des contraintes liées à l'environnement technique du projet</p>
-
+        <p>Le système CUPID25 doit pouvoir expliquer ses décisions aux utilisateurs. Plusieurs algorithmes d'explicabilité seront utilisés pour rendre ce processus transparent.</p>
     </div>
-        <div class="notice--success">
+
+    <div class="notice--success">
         <h3>IA Coachable</h3>
-        <p>L'IA de Cupid25 doit pouvoir prendre en compte le retour de l'utilisateur sur son fonctionnement, afin d'améliorer en continu le service rendu. Il faudra comprendre les retours utilisateurs et les inclure dans les modèles.</p>
+        <p>CUPID25 tiendra compte des retours des utilisateurs pour s'améliorer continuellement en fonction de leurs besoins et préférences.</p>
     </div>
 
-<h2 id="M2-project">Idée préliminaire pour un projet de création d'entreprise (M2)<h2>
+<h2 id="M2-project">Idée préliminaire pour un projet de création d'entreprise (M2)</h2>
 {% include image-text-row id="M2-projet" %}
-
-
 
 </section>
